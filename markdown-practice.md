@@ -203,6 +203,15 @@ I almost forgot Images! They work almost exactly like links, except you need a b
 
 ## Conclusion
 
+One more thing I didn't mention was that you can use some html components if you need to do something specific:
+
+```markdown
+<img src="https://unsplash.it/300/300?random" alt="a different cool pic" id="pic-i-need-an-id-on">
+```
+
+<img src="https://unsplash.it/300/300?random" alt="a different cool pic" id="pic-i-need-an-id-on">
+
+<br><br>
 Well, I am sure I forgot something, but I am really glad I got all of this time practicing my _new and improved_ fancy **MARKDOWN** ~~shenanigans~~ skills!
 
 Thanks for reading!
