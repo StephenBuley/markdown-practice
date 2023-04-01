@@ -1,4 +1,4 @@
-# Markdown Practice Read Me
+# Markdown Practice
 
 A Project by Stephen Buley
 
