@@ -17,10 +17,20 @@ Headings can be denoted using the `#` symbol, which makes it easy to see what le
 You can also use heading levels 1 and 2 like this
 
 ```md
-# Heading 1
+Heading 1
+===========
 
-## Heading 2
+Heading 2
+-----------
 ```
+Which displays:
+
+Heading 1
+===========
+
+Heading 2
+-----------
+
 
 At least 3 of each symbol are needed to denote the heading, and it needs to be directly under the words
 
@@ -66,7 +76,7 @@ or this
 1. Go to Store
 2. Get a monkey
 3. Wait a monkey?
-4. Does this work? We will see!
+5. Does this work? We will see!
 ```
 
 1. Go to store
@@ -78,7 +88,7 @@ or this
 1. Go to Store
 2. Get a monkey
 3. Wait a monkey?
-4. Does this work? We will see! doesn't look like it, the parser always does it for you
+5. Does this work? We will see! doesn't look like it, the parser always does it for you
 
 ## Italics, bold, strikethrough
 
