@@ -17,20 +17,16 @@ Headings can be denoted using the `#` symbol, which makes it easy to see what le
 You can also use heading levels 1 and 2 like this
 
 ```md
-Heading 1
-===========
+# Heading 1
 
-Heading 2
------------
+## Heading 2
 ```
+
 Which displays:
 
-Heading 1
-===========
+# Heading 1
 
-Heading 2
------------
-
+## Heading 2
 
 At least 3 of each symbol are needed to denote the heading, and it needs to be directly under the words
 
@@ -47,6 +43,19 @@ each paragraph needs to be on its own line seperated by one line, otherwise it j
 like this
 
 or like this
+
+## Checkists
+
+Checklists are created by putting `- [ ]` before your line, and filling with an `x` if you want it checked
+
+```markdown
+- [ ] Check if this renders as a checkbox
+
+- [x] Check if this renders as a checkbox
+```
+
+- [ ] Check if this renders as a checkbox
+- [x] Check if this renders as a checkbox
 
 ## Ordered and Unordered Lists
 
@@ -76,7 +85,7 @@ or this
 1. Go to Store
 2. Get a monkey
 3. Wait a monkey?
-5. Does this work? We will see!
+4. Does this work? We will see!
 ```
 
 1. Go to store
@@ -88,7 +97,7 @@ or this
 1. Go to Store
 2. Get a monkey
 3. Wait a monkey?
-5. Does this work? We will see! doesn't look like it, the parser always does it for you
+4. Does this work? We will see! doesn't look like it, the parser always does it for you
 
 ## Italics, bold, strikethrough
 
@@ -143,12 +152,12 @@ The problem with this way is that it doesn't just link text, you have to put in 
 ```markdown
 add a link like this: go to [Google](https://www.google.com)
 
-you can also do this to create a little title/tooltip: [Google](https://www.google.com "This is the tool tip")
+you can also do this to create a little title/tooltip: [Google](https://www.google.com 'This is the tool tip')
 ```
 
 add a link like this: go to [Google](https://www.google.com)
 
-you can also do this to create a little title/tooltip: [Google](https://www.google.com "This is the tool tip")
+you can also do this to create a little title/tooltip: [Google](https://www.google.com 'This is the tool tip')
 
 This is better for creating a link within a word, and the only way to get the tool tip action going, but it looks a little clunky in my opinion.
 
