@@ -7,4 +7,4 @@
 - [ ] Compile all frontend mentor challenges into one place to put on website
 - [ ] Make a website for Shane?
 - [ ] Make Resume
-- [ ] Make LinkedIn Profile better
+- [x] Make LinkedIn Profile better
