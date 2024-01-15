@@ -1,6 +1,6 @@
 # Portfolio Todos
 
-- [ ] Find a community to be a part of. Maybe 100 days of code.
+- [x] Find a community to be a part of. Maybe 100 days of code.
 - [ ] Actually put content on my website
 - [ ] Finish/polish epic-duels-online
 - [ ] Finish/polish band-fingerings
